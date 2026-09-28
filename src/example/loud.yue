@@ -1,0 +1,4 @@
+-- A YueScript module that uses the Lua one: import "example.loud".
+import "example.greet"
+
+export shout = (name) -> greet.hello(name)\upper!
